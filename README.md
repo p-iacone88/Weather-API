@@ -11,9 +11,9 @@ The project demonstrates the practical use of third-party APIs, specifically the
 
 The application uses the 5 Day Weather Forecast API to retrieve weather data for cities. The base URLs for the API request are the following:
 
-https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}'
 
-https://api.openweathermap.org/data/2.5/forecast?q={city}&units=imperial&appid={API_key}
+'https://api.openweathermap.org/data/2.5/forecast?q={city}&units=imperial&appid={API_key}'
 
 ## JavaScript Functionality
 
