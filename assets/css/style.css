@@ -1,3 +1,5 @@
+/* basic styling for body */
+
 body {
   background-image: linear-gradient(to right, #419dda, #98c6ff);
   font-family: 'Plex Sans', sans-serif;
@@ -12,7 +14,6 @@ body {
   width: 70%;
 }
 
-
 #searchHistory button {
   margin: 5px;
 }
@@ -21,9 +22,3 @@ body {
   border-radius: 0.25rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* @media (max-width: 768px) {
-  #cityName {
-    width: 100%;
-  }
-} */

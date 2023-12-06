@@ -21,21 +21,22 @@ The JavaScript code is responsible for handling user interactions, fetching data
 
 ## User Interaction:
 
-    ### City Input and Weather Retrieval:
-        - Enables users to input a city name to retrieve the current weather for that city.
-        - User also can retrieve a basic five-day weather forecast.
-        - Facilitates the storage of searched cities locally for swift and convenient access in subsequent sessions.
+### City Input and Weather Retrieval:
+    - Enables users to input a city name to retrieve the current weather for that city.
+    - User also can retrieve a basic five-day weather forecast.
+    - Facilitates the storage of searched cities locally for swift and convenient access in subsequent sessions.
 
 ## Display Functions:
 
-    ### saveToLocalStorage(city):
-        - Functionality to store searched cities in local storage, shows a record of previous searches.
+### saveToLocalStorage(city):
+    - Functionality to store searched cities in local storage, shows a record of previous searches.
 
-    ### displaySearchHistory():
-        - Generates interactive buttons representing previously searched cities. These buttons allow for the process of easily re-accessing weather forecasts for those cities.
+### displaySearchHistory():
+    - Generates interactive buttons representing previously searched cities. These buttons allow for the process of easily re-accessing weather forecasts for those cities.
 
-    ### getWeatherForecast(city):
-        - Initiates the retrieval of weather data for the specified city from the API and dynamically updates the forecast cards on the dashboard.
+### getWeatherForecast(city):
+    - Initiates the retrieval of weather data for the specified city from the API and dynamically updates the forecast cards on the dashboard.
+
 
 ## Styling
 

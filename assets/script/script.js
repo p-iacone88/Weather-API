@@ -5,10 +5,10 @@ const searchHistory = document.getElementById('searchHistory');
 
 function saveToLocalStorage(city) {
   let cities = JSON.parse(localStorage.getItem('cities')) || [];
-  if (!cities.includes(city)) {
+  if (!cities.includes(city)) { //make sure city isn't already added
     cities.push(city);
     localStorage.setItem('cities', JSON.stringify(cities));
-    displaySearchHistory(); // update search history after adding the new city
+    displaySearchHistory(); // displays search history after adding the new city
   }
 }
 
@@ -37,6 +37,8 @@ async function getWeatherForecast(city) {
 
       document.querySelector('.forecast-cards').innerHTML = '';
 
+
+      // Loop through increments of 8 starting from 7 to ensure starts tomorrow and goes to the last item
       for (let i = 7; i < 40; i += 8) {
 
 

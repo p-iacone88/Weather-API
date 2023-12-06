@@ -12,34 +12,39 @@
 
 <body>
 
-  <div class="jumbotron jumbotron-fluid bg-primary text-white">
-    <div class="container">
-      <h1 class="display-4 text-dark">Weather Dashboard</h1>
-      <p class="lead">Choose a city to see the five day forecast.</p>
-      <hr class="my-4">
-      <form class="form-inline mb-5" id="weatherForm">
-        <input type="text" class="form-control mr-sm-2" id="cityName" placeholder="Enter City Name">
-        <button type="submit" class="btn btn-light mb-2" id="getForecastButton">Get Forecast</button>
-      </form>
-    </div>
-    <div class="container">
-      <div id="searchHistory" class="d-flex flex-wrap">
+  <header>
+
+    <div class="jumbotron jumbotron-fluid bg-primary text-white">
+      <div class="container">
+        <h1 class="display-4 text-dark">Weather Dashboard</h1>
+        <p class="lead">Choose a city to see the five day forecast.</p>
+        <hr class="my-4">
+        <form class="form-inline mb-5" id="weatherForm">
+          <input type="text" class="form-control mr-sm-2" id="cityName" placeholder="Enter City Name">
+          <button type="submit" class="btn btn-light mb-2" id="getForecastButton">Get Forecast</button>
+        </form>
+      </div>
+      <div class="container">
+        <div id="searchHistory" class="d-flex flex-wrap">
+        </div>
       </div>
     </div>
-  </div>
+  </header>
+
+  <section class="weather-display">
+
+    <div class="container">
+      <section class="col-sm-12 current-forecast-card">
+      </section>
+    </div>
 
 
+    <div class="container">
+      <section class="row row-cols-1 row-cols-md-4 g-4 forecast-cards">
+      </section>
+    </div>
 
-  <div class="container">
-    <section class="col-sm-12 current-forecast-card">
-    </section>
-  </div>
-
-
-  <div class="container">
-    <section class="row row-cols-1 row-cols-md-4 g-4 forecast-cards">
-    </section>
-  </div>
+  </section>
 
   <script src="assets/script/script.js"></script>
 
