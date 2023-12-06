@@ -48,6 +48,11 @@ https://p-iacone88.github.io/Weather-API/
 
 ## Screenshots
 
+![Screenshot 2023-12-06 at 4 05 42 PM](https://github.com/p-iacone88/Weather-API/assets/50248763/b9ce4c75-7614-4d4a-a928-c12930ae7057)
+
+![Screenshot 2023-12-06 at 4 05 50 PM](https://github.com/p-iacone88/Weather-API/assets/50248763/f7e57794-6b43-4f07-8fe6-38967b17b2ff)
+
+
 
 
 ## Credits
